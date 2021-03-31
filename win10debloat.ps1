@@ -459,11 +459,11 @@ $adobereader.Add_Click({
 	$wshell.Popup("Operation Completed",0,"Done",0x0)
 })
 
-$notepad.Add_Click({ 
-    Write-Host "Installing Notepad++"
-    choco install notepadplusplus -y
-	$wshell.Popup("Operation Completed",0,"Done",0x0)
-})
+#$notepad.Add_Click({ 
+#    Write-Host "Installing Notepad++"
+#    choco install notepadplusplus -y
+#	$wshell.Popup("Operation Completed",0,"Done",0x0)
+#})
 
 $vlc.Add_Click({ 
     Write-Host "Installing VLC Media Player"
@@ -471,11 +471,11 @@ $vlc.Add_Click({
 	$wshell.Popup("Operation Completed",0,"Done",0x0)
 })
 
-$mpc.Add_Click({ 
-    Write-Host "Installing Media Player Classic"
-    choco install mpc-be -y
-	$wshell.Popup("Operation Completed",0,"Done",0x0)
-})
+#$mpc.Add_Click({ 
+#    Write-Host "Installing Media Player Classic"
+#    choco install mpc-be -y
+#	$wshell.Popup("Operation Completed",0,"Done",0x0)
+#})
 
 $7zip.Add_Click({ 
     Write-Host "Installing 7-Zip Compression Tool"
@@ -483,11 +483,11 @@ $7zip.Add_Click({
 	$wshell.Popup("Operation Completed",0,"Done",0x0)
 })
 
-$vscode.Add_Click({ 
-    Write-Host "Installing Visual Studio Code"
-    choco install vscode -y
-	$wshell.Popup("Operation Completed",0,"Done",0x0)
-})
+# $vscode.Add_Click({ 
+#    Write-Host "Installing Visual Studio Code"
+#    choco install vscode -y
+#	$wshell.Popup("Operation Completed",0,"Done",0x0)
+#})
 
 $winterminal.Add_Click({ 
     Write-Host "Installing New Windows Terminal"
